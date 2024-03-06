@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Index</title>
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            background-image: url('file:///C:/Users/versc/OneDrive/Bureaublad/overheid%20future/images/anwb_background.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center horizontally */
+            align-items: flex-start; /* Align items to the top */
+            min-height: 100vh; /* Set minimum height to full viewport height */
+        }
+
+        /* Container for buttons */
+        .button-container {
+            display: flex;
+            flex-direction: column-width;
+            align-items: center;
+            margin-top: 70px; /* Adjust top margin as needed */
+        }
+
+        /* Style for buttons */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            background-color: #000000;
+            color: #fff;
+            transition: background-color 0.3s;
+            margin-bottom: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <!-- Button for "Indienst" -->
+        <button class="button" onclick="window.location.href = 'file:///C:/Users/versc/OneDrive/Bureaublad/overheid%20future/anwb/functies/indienst.html';">Indienst</button>
+
+        <!-- Button for "Leden" -->
+        <button class="button" onclick="window.location.href = 'file:///C:/Users/versc/OneDrive/Bureaublad/overheid%20future/anwb/functies/leden.html';">Leden</button>
+    
+        <!-- Button for "Trainingen" -->
+        <button class="button" onclick="window.location.href = 'file:///C:/Users/versc/OneDrive/Bureaublad/overheid%20future/anwb/functies/trainingen.html';">Trainingen</button>
+
+        <!-- Button for "Inklok" -->
+        <button class="button" onclick="window.location.href = 'file:///C:/Users/versc/OneDrive/Bureaublad/overheid%20future/anwb/functies/inklok.html';">Inklok</button>
+
+        <!-- Button for "Profile" -->
+        <button class="button" onclick="window.location.href = 'file:///C:/Users/versc/OneDrive/Bureaublad/overheid%20future/anwb/functies/profile.html';">Profile</button>
+    </div>
+</body>
+</html>
